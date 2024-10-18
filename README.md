@@ -26,7 +26,6 @@ This document provides an overview of the structure of the repository and descri
 
 ### Root Directory
 - `.dvc/`: Directory for DVC (Data Version Control) configuration and cache files.
-  - `cache/`: DVC cache for large files.
   - `config`: DVC configuration file.
 - `configs/`: Directory for configuration files.
   - `README.md`: Documentation for configuration setup.
@@ -34,24 +33,23 @@ This document provides an overview of the structure of the repository and descri
   - `BindingDB/`: Raw BindingDB data.
   - `proteins/`: Protein data files.
   - `screening_data/`: Data used for screening experiments.
-- `datastore/`: Managed datastore files.
+- `datastore/`: Managed datastore files. _Should be created manually._
 - `models/`: Contains trained models and related files.
 - `notebooks/`: Jupyter notebooks for data analysis and visualization.
 - `src/`: Source code for the project, including scripts for docking and analysis.
-- `README.md`: Main documentation file for the repository.
 - `requirements.txt`: List of Python dependencies.
 - `pyproject.toml`: Configuration file for Poetry and project metadata.
 
 ## How to Use:
 1. Install dependencies with:
 ```bash
-pip install -r requirements.txt
+pip install -Ur requirements.txt
 ```
 
 2. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone git@github.com:IVproger/ChemDiv_Screening.git](https://github.com/IVproger/ChemDiv_Screening.git)
+cd ChemDiv_Screening
 ```
 
 ## Acknowledgments:
@@ -59,4 +57,3 @@ We would like to thank ChemDiv for providing access to their molecular dataset a
 
 ## License:
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
