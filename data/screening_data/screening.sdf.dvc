@@ -1,0 +1,5 @@
+outs:
+- md5: 4e16e81575d7d3dff04ef2c5f68697ed
+  size: 3724804130
+  hash: md5
+  path: screening.sdf

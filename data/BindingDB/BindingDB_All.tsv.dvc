@@ -1,0 +1,5 @@
+outs:
+- md5: e446252f9f009aaf94645f7cd0ac25be
+  size: 6269398981
+  hash: md5
+  path: BindingDB_All.tsv
