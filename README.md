@@ -41,15 +41,33 @@ This document provides an overview of the structure of the repository and descri
 - `pyproject.toml`: Configuration file for Poetry and project metadata.
 
 ## How to Use:
-1. Install dependencies with:
+
+1. Clone the repository:
 ```bash
-pip install -Ur requirements.txt
+git clone git@github.com:IVproger/ChemDiv_Screening.git
+cd ChemDiv_Screening
 ```
 
-2. Clone the repository:
+2. Create a virtual environment:
 ```bash
-git clone git@github.com:IVproger/ChemDiv_Screening.git](https://github.com/IVproger/ChemDiv_Screening.git)
-cd ChemDiv_Screening
+python -m venv .venv
+```
+
+3. Activate the virtual environment:
+
+- **For Linux/MacOS:**
+```bash
+source .venv/bin/activate
+```
+
+- **For Windows:**
+```bash
+.\.venv\Scripts\activate
+```
+
+4. Install dependencies:
+```bash
+pip install -Ur requirements.txt
 ```
 
 ## Acknowledgments:
