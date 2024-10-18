@@ -1,6 +1,5 @@
 
 # Molecule Screening Against Target Proteins
----
 
 This project involves screening a molecule dataset against four proteins:
 - **1O5M (FPT)**
