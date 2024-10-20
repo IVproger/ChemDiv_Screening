@@ -1,0 +1,4 @@
+data:
+  bindingdb:
+    number_of_rows: 2923144
+    path: data/BindingDB/BindingDB_All.tsv
