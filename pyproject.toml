@@ -26,6 +26,7 @@ transformers = "4.43.4"
 pytdc = "<1.1.0"
 fastparquet = "^2024.5.0"
 polars = "^1.9.0"
+catboost = "^1.2.7"
 
 
 [build-system]
