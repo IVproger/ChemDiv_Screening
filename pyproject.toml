@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chemdiv-screening"
+name = "chemdiv-screening-project"
 version = "0.1.0"
 description = ""
 authors = ["Ivan Golov <ivangolov@icloud.com>"]

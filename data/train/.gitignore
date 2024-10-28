@@ -1,1 +1,4 @@
 train.parquet
+parsed_smiles.parquet
+parsed_proteins.parquet
+production_ready_train.parquet
