@@ -9,7 +9,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
 numpy = ">=1.26.4,<2.0.0"
-pandas = "^2.2.3"
+pandas = "2.0.0"
 matplotlib = "^3.9.2"
 rdkit = ">=2023.9.5,<2024.3.1"
 torch-geometric = "^2.6.1"
@@ -23,11 +23,12 @@ datamol = "^0.12.5"
 molfeat = "^0.10.1"
 datasets = "2.20.0"  # Required by pytdc
 transformers = "4.43.4"
-pytdc = "<1.1.0"
 fastparquet = "^2024.5.0"
 polars = "^1.9.0"
 catboost = "^1.2.7"
 biopython = "^1.84"
+mol2vec = "^0.2.2"
+rdkit-pypi = "^2022.9.5"
 
 
 [build-system]
