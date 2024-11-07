@@ -1,0 +1,6 @@
+model:
+  molshape: 768
+  seqshape: 320
+  batch_size: 256
+  path: 'models/production/deeplpi_model_v2.pth'
+  
