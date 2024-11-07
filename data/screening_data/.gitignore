@@ -3,3 +3,4 @@ parsed_smiles.parquet
 ligand_embeddings.parquet
 smiles.npy
 /inference_v1
+/inference_v2
