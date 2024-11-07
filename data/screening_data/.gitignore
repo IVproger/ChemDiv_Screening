@@ -1,1 +1,4 @@
-/screening.sdf
+screening.sdf
+parsed_smiles.parquet
+ligand_embeddings.parquet
+smiles.npy
