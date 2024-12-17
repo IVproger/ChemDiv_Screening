@@ -10,8 +10,6 @@ This project involves screening a molecule dataset against four proteins:
 ## Team Members:
 - **Ivan Golov** – Lead Developer, ML engineer
 - **Ruslan Lukin** –  Lead and domain consultant
-- **Aleksandra Kuzmich** – Computational Modeling and Docking
-- **Nicky Badyuk** – Research and Validation 
 
 ## Project Overview:
 The goal is to computationally screen the given molecular dataset for potential interactions with the target proteins. This process includes:
